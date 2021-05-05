@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: dec6bd07d12f9394792b086b93fe3833
   - enabled: 1
+    path: Assets/Scenes/An Inside Job.unity
+    guid: e45698c63da97b24d997d1e44af7c31d
+  - enabled: 1
+    path: Assets/Scenes/Best Interests.unity
+    guid: 8a40dcabe0966614881e8bc5ee72ca40
+  - enabled: 1
+    path: Assets/Scenes/Behind The Scenes.unity
+    guid: bcb87ab6399e6724c92c7df14e04cfb4
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

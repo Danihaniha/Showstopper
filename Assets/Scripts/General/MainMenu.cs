@@ -9,4 +9,19 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void LoadMystery1()
+    {
+        SceneManager.LoadScene(1);
+    }    
+    
+    public void LoadMystery2()
+    {
+        SceneManager.LoadScene(2);
+    }    
+    
+    public void LoadMystery3()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
