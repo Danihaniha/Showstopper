@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public float radius = 0.5f;
+    public float radius = 1.5f;
 
 
     bool isFocus = false;
