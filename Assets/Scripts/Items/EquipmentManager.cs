@@ -23,6 +23,8 @@ public class EquipmentManager : MonoBehaviour
 
     Inventory inventory;
 
+    public string[] rightEquipment = { "Telephone", "Axe" };
+
     private void Start()
     {
         inventory = Inventory.instance;
@@ -31,6 +33,7 @@ public class EquipmentManager : MonoBehaviour
         currentEquipment = new Equipment[numSlots];
     }
 
+    // Code to Equip items into the Equipment Manager.
     public void Equip (Equipment newItem)
     {
         int slotIndex = (int)newItem.equipSlot;
@@ -51,6 +54,7 @@ public class EquipmentManager : MonoBehaviour
         currentEquipment[slotIndex] = newItem;
     }
 
+    // Code to Unequip items from the Equipment Manager.
     public void Unequip (int slotIndex)
     {
         if(currentEquipment[slotIndex] != null)
@@ -67,4 +71,18 @@ public class EquipmentManager : MonoBehaviour
         }
     }
 
+
+    // Code to check if currently equipped Suspect, Motive and Weapon is the right combination to win or to loose, and which loads the matching scenario if you win/loose.
+    //  Trenger: string[] cars = {"Volvo", "BMW", " typ i toppen og så sjekke om Slot contains noe fra stringen cars
+    //public void WinOrLose()
+    //  {
+    //      If slotIndex(1) == rightEquipment && slotIndex(2) == rightEquipment && slotIndex(3) == rightEquipment
+    //      {
+    //          Load Win-scenario;
+    //      }
+    //      else
+    //      {
+    //          Load Lose-scenario;
+    //      }
+    //  }
 }
