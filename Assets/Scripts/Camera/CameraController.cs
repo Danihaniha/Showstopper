@@ -7,13 +7,16 @@ public class CameraController : MonoBehaviour
     public Vector3 boundsMin;
     public Vector3 boundsMax;
 
+    public int[] roomSize = { 20, 26, 22 };
+
     public GameObject cameraToMove;
     public int currentRoom = 0;
     public float offsetRoom = 50f;
 
+
     private void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, currentRoom * offsetRoom + boundsMin.x, currentRoom * offsetRoom + boundsMax.x), 0f, -10f);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, currentRoom * offsetRoom - roomSize[currentRoom] /2, currentRoom * offsetRoom + roomSize[currentRoom] / 2), 0f, -10f);
     }
 
     public void PressedRight()

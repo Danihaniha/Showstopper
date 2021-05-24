@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +24,7 @@ public class EquipmentManager : MonoBehaviour
 
     Inventory inventory;
 
-    public string[] rightEquipment = { "Telephone", "Axe" };
+    public string[] rightEquipment = { "Telephone", "Axe", "Bucket" };
 
     private void Start()
     {
@@ -71,18 +72,20 @@ public class EquipmentManager : MonoBehaviour
         }
     }
 
+    public void WinOrLose()
+    {
+        int test1 = Array.IndexOf(rightEquipment, currentEquipment[0].name);
+        int test2 = Array.IndexOf(rightEquipment, currentEquipment[1].name);
+        int test3 = Array.IndexOf(rightEquipment, currentEquipment[2].name);
 
-    // Code to check if currently equipped Suspect, Motive and Weapon is the right combination to win or to loose, and which loads the matching scenario if you win/loose.
-    //  Trenger: string[] cars = {"Volvo", "BMW", " typ i toppen og så sjekke om Slot contains noe fra stringen cars
-    //public void WinOrLose()
-    //  {
-    //      If slotIndex(1) == rightEquipment && slotIndex(2) == rightEquipment && slotIndex(3) == rightEquipment
-    //      {
-    //          Load Win-scenario;
-    //      }
-    //      else
-    //      {
-    //          Load Lose-scenario;
-    //      }
-    //  }
+
+        if (test1 != -1 && test2 != -1 && test3 != -1)
+        {
+            Debug.LogError("YOU GUESSED RIGHT!");
+        }
+        else
+        {
+            Debug.LogWarning("YOU WAS WRONG!");
+        }
+    }
 }

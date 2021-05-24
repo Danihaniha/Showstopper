@@ -16,6 +16,11 @@ public class Equipment : Item
         EquipmentManager.instance.Equip(this);
         RemoveFromInventory();
     }
+
+    public void RemoveFromInventory()
+    {
+        Inventory.instance.Remove(this);
+    }
 }
 
 public enum EquipmentSlot { Suspect, Motive, Weapon }
