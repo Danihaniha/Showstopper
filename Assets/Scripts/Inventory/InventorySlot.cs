@@ -6,7 +6,7 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public Button removeButton;
 
-    Equipment item;
+    public Equipment item;
 
     public void AddItem(Equipment newItem)
     {
