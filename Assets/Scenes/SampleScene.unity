@@ -2758,8 +2758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8d841a7bd8319a4096ea578758a5e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundsMin: {x: -10, y: 0, z: -10}
-  boundsMax: {x: 10, y: 0, z: 0}
   roomSize: 140000001a00000016000000
   cameraToMove: {fileID: 519420028}
   currentRoom: 0
@@ -2819,7 +2817,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -2833,6 +2831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0b1ce25c3c0ce4082fc8eafd9c6e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 175145712}
 --- !u!50 &519420034
 Rigidbody2D:
   serializedVersion: 4
@@ -3088,7 +3087,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614922930
 GameObject:
@@ -5663,7 +5662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1162874269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7522,7 +7521,7 @@ Transform:
   m_Children:
   - {fileID: 614922931}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1502904476
 MonoBehaviour:
@@ -7536,7 +7535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c118789cd2aca43817428a3a562632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  space: -1
+  space: 20
   items: []
 --- !u!114 &1502904477
 MonoBehaviour:
@@ -7563,6 +7562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc21a507ac8cf754cb54579679c5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryScreen: {fileID: 175145712}
 --- !u!114 &1502904479
 MonoBehaviour:
   m_ObjectHideFlags: 0

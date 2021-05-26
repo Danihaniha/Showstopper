@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Vector3 boundsMin;
-    public Vector3 boundsMax;
+    //public Vector3 boundsMin;
+    //public Vector3 boundsMax;
 
     public int[] roomSize = { 20, 26, 22 };
 

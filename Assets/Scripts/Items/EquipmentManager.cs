@@ -85,7 +85,7 @@ public class EquipmentManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("YOU WAS WRONG!");
+            Debug.LogWarning("YOU WERE WRONG!");
         }
     }
 }
