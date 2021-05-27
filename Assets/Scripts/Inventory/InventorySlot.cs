@@ -5,6 +5,7 @@ public class InventorySlot : MonoBehaviour
 {
     public Text text;
     public Image icon;
+    public Image polaroid;
     public Button removeButton;
 
     public Equipment item;
@@ -13,6 +14,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = newItem;
 
+        polaroid.enabled = true;
         text.text = item.name;
         icon.sprite = item.icon;
         icon.enabled = true;
@@ -23,6 +25,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = null;
 
+        polaroid.enabled = false;
         text.text = null;
         icon.sprite = null;
         icon.enabled = false;
