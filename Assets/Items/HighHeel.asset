@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
   m_Name: HighHeel
   m_EditorClassIdentifier: 
-  name: HighHeel
+  name: High Heel
   icon: {fileID: 21300000, guid: 2182c06b14110f746a027d199671fb96, type: 3}
   isDefaultItem: 0
   equipSlot: 0

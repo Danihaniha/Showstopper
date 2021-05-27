@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
+    public Text text;
     public Image icon;
     public Button removeButton;
 
@@ -12,6 +13,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = newItem;
 
+        text.text = item.name;
         icon.sprite = item.icon;
         icon.enabled = true;
         //removeButton.interactable = true;
@@ -21,6 +23,7 @@ public class InventorySlot : MonoBehaviour
     {
         item = null;
 
+        text.text = null;
         icon.sprite = null;
         icon.enabled = false;
         //removeButton.interactable = false;
