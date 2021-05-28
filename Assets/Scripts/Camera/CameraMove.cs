@@ -37,7 +37,8 @@ public class CameraMove : MonoBehaviour
 
                 case TouchPhase.Moved:
                     //transform.Translate (new Vector2(deltaX + touch.deltaPosition.x, touchPos.y + deltaY));
-                    rb.velocity = (new Vector2(deltaX + touch.deltaPosition.x, touchPos.y + deltaY));
+                    rb.velocity = (new Vector2(touch.deltaPosition.x, touchPos.y));
+                    //Debug.DrawRay(new Vector3(deltaX, deltaY), (new Vector2(touch.deltaPosition.x, touchPos.y)));
                     break;
 
                 case TouchPhase.Ended:
