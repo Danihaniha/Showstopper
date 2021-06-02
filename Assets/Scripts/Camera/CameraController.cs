@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour
         {
             currentRoom = currentRoom + 1;
             transform.position = new Vector2(currentRoom * offsetRoom, 0f);
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            //GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
 
