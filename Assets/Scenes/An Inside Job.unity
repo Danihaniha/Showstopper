@@ -3373,8 +3373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 457.72852, y: 20.178162}
-  m_SizeDelta: {x: 133.8589, y: 71.2754}
+  m_AnchoredPosition: {x: 313, y: 29.566}
+  m_SizeDelta: {x: 111.0543, y: 59.1327}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411943729
 MonoBehaviour:
@@ -6802,7 +6802,7 @@ GameObject:
   - component: {fileID: 1012901659}
   - component: {fileID: 1012901658}
   m_Layer: 0
-  m_Name: Dialogue Box 2
+  m_Name: Dialogue Box - Mike Hunt 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6828,8 +6828,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.728516, y: 78.82184}
-  m_SizeDelta: {x: 841.2386, y: 727.6441}
+  m_AnchoredPosition: {x: -57.939, y: 70.65}
+  m_SizeDelta: {x: 684.122, y: 591.7433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012901658
 MonoBehaviour:
@@ -6978,8 +6978,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 251.17, y: -64.4}
-  m_SizeDelta: {x: 484.35, y: 758.7537}
+  m_AnchoredPosition: {x: 227, y: -23}
+  m_SizeDelta: {x: 328.3734, y: 514.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048192663
 MonoBehaviour:
@@ -7136,7 +7136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: -266}
+  m_AnchoredPosition: {x: 83, y: -228}
   m_SizeDelta: {x: 713.2935, y: 111.2678}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114473271
@@ -7161,7 +7161,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -7430,6 +7430,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1152601833}
   - component: {fileID: 1152601834}
+  - component: {fileID: 1152601837}
+  - component: {fileID: 1152601836}
+  - component: {fileID: 1152601835}
   m_Layer: 0
   m_Name: M1_MikeHunt
   m_TagString: Untagged
@@ -7502,6 +7505,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1152601835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152601832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea96914b2c71849459f100a8f5425bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.62
+  item: {fileID: 11400000, guid: 2c98e87e09124c94a8f33272bdd5feb7, type: 2}
+--- !u!114 &1152601836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152601832}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22acbd9bcfb09c44f832dd0c7986ec3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.6
+--- !u!61 &1152601837
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152601832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.8, y: 19.2}
+    newSize: {x: 10.8, y: 19.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.05, y: 16.46}
+  m_EdgeRadius: 0
 --- !u!1001 &1162469868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8746,7 +8802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

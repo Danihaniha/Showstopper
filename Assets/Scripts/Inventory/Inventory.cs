@@ -29,7 +29,24 @@ public class Inventory : MonoBehaviour
 
     public bool Add (Equipment item)
     {
-        if (!item.isDefaultItem)
+        if (item.isSuspectItem)
+        {
+            // Her må jeg sjekke om det finnes en i inventory fra før av. Hvis ikke, så kan du legge til én.
+            // Her må jeg også prompte dialogpanelet according til Suspect?
+
+            if (items.Count >= space) // && sjekk her om itemen finnes i inventoryet allerede
+            {
+                Debug.Log("Not enough room.");
+                return false;
+            }
+
+            items.Add(item);
+
+            if (onItemChangedCallback != null)
+                onItemChangedCallback.Invoke();
+        }
+
+        if (!item.isSuspectItem)
         {
             if(items.Count >= space)
             {

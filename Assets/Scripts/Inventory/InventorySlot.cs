@@ -12,6 +12,7 @@ public class InventorySlot : MonoBehaviour
 
     public void AddItem(Equipment newItem)
     {
+        // Gjøre sjekk for om itemen ligger i inventory fra før av her?
         item = newItem;
 
         polaroid.enabled = true;
