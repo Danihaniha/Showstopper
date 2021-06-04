@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
     InventorySlot[] slotsMotive;
     InventorySlot[] slotsWeapon;
 
-    private void Start()
+    private void Awake()
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallback += UpdateUI;

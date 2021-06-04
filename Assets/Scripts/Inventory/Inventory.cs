@@ -29,6 +29,9 @@ public class Inventory : MonoBehaviour
 
     public bool Add (Equipment item)
     {
+        if (items.Contains(item))
+            return false;
+
         if (item.isSuspectItem)
         {
             // Her må jeg sjekke om det finnes en i inventory fra før av. Hvis ikke, så kan du legge til én.

@@ -14,6 +14,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(Input.touchCount > 0)
+        {
+        print(Input.touches[0].phase);
+
+        }
+
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
             Vector2 worldPoint = cam.ScreenToWorldPoint(Input.touches[0].position);
@@ -28,7 +34,7 @@ public class PlayerController : MonoBehaviour
             if (hit.collider.GetComponent<ItemPickup>() != null)
             {
                 var interactable = hit.collider.GetComponent<ItemPickup>();
-                SetFocus(interactable);
+                //SetFocus(interactable);
                 interactable.Interact();
                 
                 Debug.Log("You interacted with " + hit.collider.name);
