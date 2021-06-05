@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
     #region Singleton
 
     public static Inventory instance;
+    public GameObject dialogueUI;
+    public GameObject mikeDialogue01;
 
     private void Awake()
     {
@@ -29,19 +32,38 @@ public class Inventory : MonoBehaviour
 
     public bool Add (Equipment item)
     {
-        if (items.Contains(item))
-            return false;
-
         if (item.isSuspectItem)
         {
-            // Her må jeg sjekke om det finnes en i inventory fra før av. Hvis ikke, så kan du legge til én.
             // Her må jeg også prompte dialogpanelet according til Suspect?
+            // lage check på Equipment etter karakternavn + none for non-characters, og så sjekke igjen her med en if-statement / switch statement.
 
-            if (items.Count >= space) // && sjekk her om itemen finnes i inventoryet allerede
+            // Under if (item.isSuspectItem) så må jeg ha en test etter hvilken karakter det er, og ut fra hvilken karakter det er skal tilsvarende dialog komme opp.
+            // Må deretter lage en funksjon utenfor dette som kan kalles på når man trykker "Next" i dialogen, for å collecte karakteren + samme for motiv.
+
+            switch (item.characterName)
+            {
+                case CharacterName.None:
+                    break;
+                case CharacterName.MikeM1:
+                    dialogueUI.SetActive(true);
+                    mikeDialogue01.SetActive(true);
+                    break;
+                case CharacterName.PeggyM1:
+                    break;
+                case CharacterName.AmeliaM1:
+                    break;
+                default:
+                    break;
+            }
+
+            if (items.Count >= space)
             {
                 Debug.Log("Not enough room.");
                 return false;
             }
+
+            if (items.Contains(item))
+                return false;
 
             items.Add(item);
 

@@ -6,6 +6,7 @@ using UnityEngine;
 public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
+    public CharacterName characterName;
 
     [TextArea]
     public string ItemDescription;
@@ -24,3 +25,5 @@ public class Equipment : Item
 }
 
 public enum EquipmentSlot { Suspect, Motive, Weapon }
+
+public enum CharacterName { None, MikeM1, PeggyM1, AmeliaM1}

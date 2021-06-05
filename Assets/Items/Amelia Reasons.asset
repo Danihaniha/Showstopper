@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
-  m_Name: Mike Hunt
+  m_Name: Amelia Reasons
   m_EditorClassIdentifier: 
-  name: Mike Hunt
-  icon: {fileID: 21300000, guid: 2515c97544a436e43a9a3244f908b122, type: 3}
+  name: Amelia Reasons
+  icon: {fileID: 21300000, guid: cca5bd225b9587d418775861ffffa4f4, type: 3}
   isSuspectItem: 1
   equipSlot: 0
-  characterName: 1
-  ItemDescription: This is Mike Hunt.
+  characterName: 3
+  ItemDescription: 

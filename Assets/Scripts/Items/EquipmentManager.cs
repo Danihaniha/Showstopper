@@ -19,6 +19,7 @@ public class EquipmentManager : MonoBehaviour
     #endregion
 
     public Image[] EquipmentUISlots;
+    public Text[] EquipmentUIText;
     
     public Equipment[] currentEquipment;
 
@@ -57,6 +58,7 @@ public class EquipmentManager : MonoBehaviour
 
         currentEquipment[slotIndex] = newItem;
         EquipmentUISlots[slotIndex].sprite = newItem.icon;
+        EquipmentUIText[slotIndex].text = newItem.name;
     }
 
     // Code to Unequip items from the Equipment Manager.

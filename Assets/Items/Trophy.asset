@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
-  m_Name: Mike Hunt
+  m_Name: Trophy
   m_EditorClassIdentifier: 
-  name: Mike Hunt
-  icon: {fileID: 21300000, guid: 2515c97544a436e43a9a3244f908b122, type: 3}
-  isSuspectItem: 1
-  equipSlot: 0
-  characterName: 1
-  ItemDescription: This is Mike Hunt.
+  name: Trophy
+  icon: {fileID: 21300000, guid: b3985af5b41e44b44af7b91613954a8b, type: 3}
+  isSuspectItem: 0
+  equipSlot: 2
+  ItemDescription: 
