@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
   m_Name: Peggy Schwang
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 21300000, guid: 89e581796f8ce0043b2a477310c61cb6, type: 3}
+  name: Peggy Schwang
+  icon: {fileID: 21300000, guid: f395e6bf46d3a934a8d25cef406460e9, type: 3}
   isSuspectItem: 1
   equipSlot: 0
   characterName: 2

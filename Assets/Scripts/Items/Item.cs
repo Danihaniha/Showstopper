@@ -9,9 +9,6 @@ public class Item : ScriptableObject
 
     public virtual void Use()
     {
-        // Use the item
-        // Something might happen
-
         Debug.Log("Using " + name);
     }
 

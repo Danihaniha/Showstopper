@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Amelia Reasons
   m_EditorClassIdentifier: 
   name: Amelia Reasons
-  icon: {fileID: 21300000, guid: cca5bd225b9587d418775861ffffa4f4, type: 3}
+  icon: {fileID: 21300000, guid: e7909eddbfe8ba44387696410b8bc646, type: 3}
   isSuspectItem: 1
   equipSlot: 0
   characterName: 3

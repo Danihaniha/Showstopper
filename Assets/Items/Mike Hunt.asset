@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mike Hunt
   m_EditorClassIdentifier: 
   name: Mike Hunt
-  icon: {fileID: 21300000, guid: 2515c97544a436e43a9a3244f908b122, type: 3}
+  icon: {fileID: 21300000, guid: 5b93e031ca91b7f4b9605a02bd04daf8, type: 3}
   isSuspectItem: 1
   equipSlot: 0
   characterName: 1
