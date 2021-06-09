@@ -2611,7 +2611,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Sure, but it's not very exciting. I open up the bar at noon, and spend
-    the first few hours cleaning and preparing for the rust.
+    the first few hours cleaning and preparing for the rest.
 --- !u!222 &198131592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3039,7 +3039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dd98c2d8904e9ed4cbdb98d43c94d370, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6a0c6ba915a4064a814265bc7525410, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4400,7 +4400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b166ceca5a25c434bb72669763d62d37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ef3b185c4ea519c4fa69c5c4760294da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4435,8 +4435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -112.5, y: 110.5}
-  m_SizeDelta: {x: 170, y: 40}
+  m_AnchoredPosition: {x: -104.5, y: 103}
+  m_SizeDelta: {x: 100.2779, y: 23.5948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &303532993
 GameObject:
@@ -6727,7 +6727,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8c16e255d454b94285c980ae52e6754, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8d3555c25926ad4eb0c01f8995ff296, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8527,7 +8527,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Allright, I might have taken a short smoke break towards the end.
+  m_Text: Alright, I might have taken a short smoke break towards the end.
 --- !u!222 &507947800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8948,7 +8948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b166ceca5a25c434bb72669763d62d37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ef3b185c4ea519c4fa69c5c4760294da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8983,8 +8983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 115.8999, y: 110.400024}
-  m_SizeDelta: {x: 170, y: 40}
+  m_AnchoredPosition: {x: 99.3, y: 104.9}
+  m_SizeDelta: {x: 100.1468, y: 23.564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &526210786
 GameObject:
@@ -9459,7 +9459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9467,15 +9467,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9507,11 +9507,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 308.6
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -72.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11117,7 +11117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658902791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14373,7 +14373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: He has a little standup routine about stardom. Usually he plays the enttire
+  m_Text: He has a little standup routine about stardom. Usually he plays the entire
     thing at once, but last night he had a long break in the middle.
 --- !u!222 &835063183
 CanvasRenderer:
@@ -14656,7 +14656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -14664,15 +14664,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14704,11 +14704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 308.6
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -234.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15578,7 +15578,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Then he started bringing other friends, or maube colleagues? They were
+  m_Text: Then he started bringing other friends, or maybe colleagues? They were
     pretty formally dressed, with business suitcases and the whole getup.
 --- !u!222 &888177120
 CanvasRenderer:
@@ -16196,7 +16196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -16204,15 +16204,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16244,11 +16244,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 183.72
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -234.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18321,7 +18321,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No one I knew, but everyone kind of turns into a mess when you're as famouse
+  m_Text: No one I knew, but everyone kind of turns into a mess when you're as famous
     as I am.
 --- !u!222 &1064690876
 CanvasRenderer:
@@ -19314,7 +19314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8c16e255d454b94285c980ae52e6754, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8d3555c25926ad4eb0c01f8995ff296, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19403,7 +19403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buzz was really funny lst night, but we left before he finished, because
+  m_Text: Buzz was really funny last night, but we left before he finished, because
     Amilia was tired.
 --- !u!222 &1123610982
 CanvasRenderer:
@@ -19492,7 +19492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -19500,15 +19500,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19540,11 +19540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 433.47998
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -234.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23296,7 +23296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -48.693604, y: -43.117004}
+  m_AnchoredPosition: {x: -48.693604, y: -43.117065}
   m_SizeDelta: {x: 121.765, y: 122.1825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366907021
@@ -23423,7 +23423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dd98c2d8904e9ed4cbdb98d43c94d370, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6a0c6ba915a4064a814265bc7525410, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23548,8 +23548,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384141158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.05315405, y: 0.05315405, z: 0.05315405}
+  m_LocalPosition: {x: -4.22, y: 0.24, z: 0}
+  m_LocalScale: {x: 0.06727708, y: 0.06727708, z: 0.06727708}
   m_Children: []
   m_Father: {fileID: 1077251273}
   m_RootOrder: 1
@@ -25550,7 +25550,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: We went straight home. We had a little chat with the doorman at her apartment,
-    so he can vouce for us.
+    so he can vouch for us.
 --- !u!222 &1476762415
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25663,7 +25663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -25671,15 +25671,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25711,11 +25711,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 433.47998
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -72.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30390,7 +30390,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Yesterday was friday, so Buzz Killborne performed. He's our resident burlesque
-    king, and a real favorite amon the patrons. He plays the piano and sings satire.
+    king, and a real favorite among the patrons. He plays the piano and sings satire.
 --- !u!222 &1776906678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32090,7 +32090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1864822576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33441,7 +33441,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: In the afternoon some people come in for an after work drink. After that
-    comes the evening rush, it gets especially busy rightbefore the first act starts.
+    comes the evening rush, it gets especially busy right before the first act starts.
 --- !u!222 &1937738299
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33634,7 +33634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -33642,15 +33642,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33682,11 +33682,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 58.84
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -72.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -33777,8 +33777,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' I played the piano and sang satirical songs, as usual, and did my little
-    stand up act on fame as a bonus for the crowd.'
+  m_Text: I played the piano and sang satirical songs, as usual, and did my little
+    stand up act on fame as a bonus for the crowd.
 --- !u!222 &1959244943
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34646,7 +34646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -34654,15 +34654,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34694,11 +34694,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 183.72
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -72.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36368,7 +36368,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2054134163
 MonoBehaviour:
@@ -37198,7 +37198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2084674064
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37528,7 +37528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.x
@@ -37536,15 +37536,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 37.68
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 65.9
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37576,11 +37576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 58.84
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -234.95
       objectReference: {fileID: 0}
     - target: {fileID: 1723484808718759484, guid: 07ac9ac5523ac024da5e6fc5480f63db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -38082,7 +38082,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Of couse. My name is Buzz Killborne. I'm a burlesque king here at De Basement.
+  m_Text: Of course. My name is Buzz Killborne. I'm a burlesque king here at De Basement.
     I play the piano and sing satire.
 --- !u!222 &2114186696
 CanvasRenderer:
