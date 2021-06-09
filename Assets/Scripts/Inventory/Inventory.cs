@@ -100,6 +100,7 @@ public class Inventory : MonoBehaviour
                 return false;
             }
 
+            //la til denne her, la oss teste om man får duplicate av motiver da
             if (items.Contains(item))
                 return false;
 
