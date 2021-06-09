@@ -80,6 +80,9 @@ public class EquipmentManager : MonoBehaviour
 
     public void WinOrLose()
     {
+        //if (currentEquipment[0] = null || currentEquipment[1] = null || currentEquipment[2] = null)
+        //    return;
+
         int test1 = Array.IndexOf(rightEquipment, currentEquipment[0].name);
         int test2 = Array.IndexOf(rightEquipment, currentEquipment[1].name);
         int test3 = Array.IndexOf(rightEquipment, currentEquipment[2].name);

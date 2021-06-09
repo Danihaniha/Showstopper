@@ -32,18 +32,6 @@ public class InventoryUI : MonoBehaviour
         List<Equipment> suspect = inventory.items.FindAll(kakeMonster => kakeMonster.equipSlot == EquipmentSlot.Suspect);
         List<Equipment> motive = inventory.items.FindAll(kakeMonster => kakeMonster.equipSlot == EquipmentSlot.Motive);
 
-        //for (int i = 0; i < slots.Length; i++)
-        //{
-        //    if (i < inventory.items.Count)
-        //    {
-        //        slots[i].AddItem(inventory.items[i]);
-        //    }
-        //    else
-        //    {
-        //        slots[i].ClearSlot();
-        //    }
-        //}
-
         for (int i = 0; i < slotsWeapon.Length; i++)
         {
             if (i < weapons.Count)

@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
-  m_Name: Rage
+  m_Name: Amelia Reasons M2
   m_EditorClassIdentifier: 
-  name: Rage
-  icon: {fileID: 21300000, guid: c483493eb3ec0f143b5d78ad823ac661, type: 3}
-  isSuspectItem: 0
-  isNotToBeDestroyed: 1
-  equipSlot: 1
-  characterName: 0
+  name: Amelia Reasons
+  icon: {fileID: 21300000, guid: e7909eddbfe8ba44387696410b8bc646, type: 3}
+  isSuspectItem: 1
+  equipSlot: 0
+  characterName: 4
   ItemDescription: 

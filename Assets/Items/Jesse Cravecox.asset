@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12e4b0bd009bff438f49e16888e9a27, type: 3}
-  m_Name: Rage
+  m_Name: Jesse Cravecox
   m_EditorClassIdentifier: 
-  name: Rage
-  icon: {fileID: 21300000, guid: c483493eb3ec0f143b5d78ad823ac661, type: 3}
-  isSuspectItem: 0
-  isNotToBeDestroyed: 1
-  equipSlot: 1
-  characterName: 0
+  name: Jesse Cravecox
+  icon: {fileID: 21300000, guid: d88a470cfd7e47f42aa73c7db1b5d31c, type: 3}
+  isSuspectItem: 1
+  equipSlot: 0
+  characterName: 6
   ItemDescription: 

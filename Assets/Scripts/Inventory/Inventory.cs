@@ -10,6 +10,10 @@ public class Inventory : MonoBehaviour
     public static Inventory instance;
     public GameObject dialogueUI;
     public GameObject mikeDialogue01;
+    public GameObject ameliaDialogueM2;
+    public GameObject andyDialogueM2;
+    public GameObject buzzDialogueM2;
+    public GameObject jesseDialogueM2;
 
     private void Awake()
     {
@@ -52,6 +56,23 @@ public class Inventory : MonoBehaviour
                     break;
                 case CharacterName.AmeliaM1:
                     break;
+                case CharacterName.AmeliaM2:
+                    dialogueUI.SetActive(true);
+                    ameliaDialogueM2.SetActive(true);
+                    break;
+                case CharacterName.BuzzM2:
+                    dialogueUI.SetActive(true);
+                    buzzDialogueM2.SetActive(true);
+                    break;
+                case CharacterName.AndyM2:
+                    dialogueUI.SetActive(true);
+                    andyDialogueM2.SetActive(true);
+                    break;
+                case CharacterName.JesseM2:
+                    dialogueUI.SetActive(true);
+                    jesseDialogueM2.SetActive(true);
+                    break;
+
                 default:
                     break;
             }
