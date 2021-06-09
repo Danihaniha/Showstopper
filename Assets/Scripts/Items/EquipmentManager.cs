@@ -28,7 +28,7 @@ public class EquipmentManager : MonoBehaviour
 
     Inventory inventory;
 
-    public string[] rightEquipment = { "Baseball Bat", "Cyanide", "Feather Boa", "Romantic Jealousy", "Mission From Mafia", "Keeping Secret", "Peggy Schwang", "Buzz Killborne", "Wanda Strapon", "Buster Block" };
+    public string[] rightEquipment = { "Baseball Bat", "Arsenic", "Feather Boa", "Romantic Jealousy", "Owes The Mafia", "Keeping Secret", "Peggy Schwang", "Buzz Killborne", "Wanda Strapon", "Buster Block" };
 
     private void Start()
     {

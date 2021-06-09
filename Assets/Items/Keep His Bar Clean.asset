@@ -15,6 +15,7 @@ MonoBehaviour:
   name: Keep His Bar Clean
   icon: {fileID: 0}
   isSuspectItem: 0
+  isMotiveItem: 1
   equipSlot: 1
   characterName: 0
   ItemDescription: 

@@ -100,6 +100,9 @@ public class Inventory : MonoBehaviour
                 return false;
             }
 
+            if (items.Contains(item))
+                return false;
+
             items.Add(item);
 
             if(onItemChangedCallback != null)
