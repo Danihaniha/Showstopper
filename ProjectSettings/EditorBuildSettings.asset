@@ -9,15 +9,42 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: dec6bd07d12f9394792b086b93fe3833
   - enabled: 1
-    path: Assets/Scenes/An Inside Job.unity
-    guid: e45698c63da97b24d997d1e44af7c31d
+    path: Assets/Scenes/M1 An Inside Job.unity
+    guid: 9deea90c88ada5f40956a95648286adf
   - enabled: 1
+    path: Assets/Scenes/M1_Win.unity
+    guid: d1a34e1f298402e4292d11496da04cd7
+  - enabled: 1
+    path: Assets/Scenes/M1_Lose.unity
+    guid: 8cde12ec1e88e0d4aa53a1244910f318
+  - enabled: 1
+    path: Assets/Scenes/M2 Best Interests.unity
+    guid: 0bbe987cfe21f794e9f81916a7bc4e25
+  - enabled: 1
+    path: Assets/Scenes/M2_Win.unity
+    guid: 199f8f70a5ce27a468d1195931806cc5
+  - enabled: 1
+    path: Assets/Scenes/M2_Lose.unity
+    guid: f8e29738caf1ebc478733ad6b123a79e
+  - enabled: 1
+    path: Assets/Scenes/M3 Behind The Scenes.unity
+    guid: 33061f0fd9035094e809d901e548cec0
+  - enabled: 1
+    path: Assets/Scenes/M3_Win.unity
+    guid: 47a5ba2e159a4aa44baf0ce9821da6bc
+  - enabled: 1
+    path: Assets/Scenes/M3_Lose.unity
+    guid: 2eca21da15b038146b2f0bec8bce941a
+  - enabled: 0
     path: Assets/Scenes/Best Interests.unity
     guid: 8a40dcabe0966614881e8bc5ee72ca40
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/An Inside Job.unity
+    guid: e45698c63da97b24d997d1e44af7c31d
+  - enabled: 0
     path: Assets/Scenes/Behind The Scenes.unity
     guid: bcb87ab6399e6724c92c7df14e04cfb4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

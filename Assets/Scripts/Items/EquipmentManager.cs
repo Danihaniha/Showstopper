@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EquipmentManager : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class EquipmentManager : MonoBehaviour
 
     Inventory inventory;
 
-    public string[] rightEquipment = { "Baseball Bat", "Arsenic", "Feather Boa", "Romantic Jealousy", "Owes The Mafia", "Keeping Secret", "Peggy Schwang", "Buzz Killborne", "Wanda Strapon", "Buster Block" };
+    public string[] rightEquipment = { "Baseball Bat", "Arsenic", "Feather Boa", "Jealousy", "Owes The Mafia", "Keeping Secret", "Peggy Schwang", "Buzz Killborne", "Wanda Strapon", "Buster Block" };
 
     private void Start()
     {
@@ -91,11 +92,11 @@ public class EquipmentManager : MonoBehaviour
 
         if (test1 != -1 && test2 != -1 && test3 != -1)
         {
-            Debug.LogError("YOU GUESSED RIGHT!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            Debug.LogWarning("YOU WERE WRONG!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
 }

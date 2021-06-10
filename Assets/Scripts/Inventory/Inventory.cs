@@ -10,6 +10,8 @@ public class Inventory : MonoBehaviour
     public static Inventory instance;
     public GameObject dialogueUI;
     public GameObject mikeDialogue01;
+    public GameObject amiliaDialogue01;
+    public GameObject peggyDialogue01;
     public GameObject ameliaDialogueM2;
     public GameObject andyDialogueM2;
     public GameObject buzzDialogueM2;
@@ -53,8 +55,12 @@ public class Inventory : MonoBehaviour
                     mikeDialogue01.SetActive(true);
                     break;
                 case CharacterName.PeggyM1:
+                    dialogueUI.SetActive(true);
+                    peggyDialogue01.SetActive(true);
                     break;
                 case CharacterName.AmeliaM1:
+                    dialogueUI.SetActive(true);
+                    amiliaDialogue01.SetActive(true);
                     break;
                 case CharacterName.AmeliaM2:
                     dialogueUI.SetActive(true);
