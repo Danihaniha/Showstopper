@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Keep His Bar Clean
   m_EditorClassIdentifier: 
   name: Keep His Bar Clean
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 000bd0ddf079df246a80bfc3f623d7f1, type: 3}
   isSuspectItem: 0
   isMotiveItem: 1
   equipSlot: 1

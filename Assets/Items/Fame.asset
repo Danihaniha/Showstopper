@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fame
   m_EditorClassIdentifier: 
   name: Fame
-  icon: {fileID: 21300000, guid: c483493eb3ec0f143b5d78ad823ac661, type: 3}
+  icon: {fileID: 21300000, guid: b8efefa8bb3a57d45867d3466c5da62d, type: 3}
   isSuspectItem: 0
   isMotiveItem: 1
   equipSlot: 1

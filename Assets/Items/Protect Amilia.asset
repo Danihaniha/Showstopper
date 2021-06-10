@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Protect Amilia
   m_EditorClassIdentifier: 
   name: Protect Amilia
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 4454ce2877c8d6e418c16af759590603, type: 3}
   isSuspectItem: 0
   isMotiveItem: 1
   equipSlot: 1

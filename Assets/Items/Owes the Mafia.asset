@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Owes The Mafia
   m_EditorClassIdentifier: 
   name: Owes The Mafia
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 38bc2d1bf7d5c164ba98cbd7a8d62910, type: 3}
   isSuspectItem: 0
   isMotiveItem: 1
   equipSlot: 1
