@@ -13925,8 +13925,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969215642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.02, y: -2.82, z: 0}
-  m_LocalScale: {x: 0.055795383, y: 0.055795383, z: 0.055795383}
+  m_LocalPosition: {x: 46.04, y: -2.66, z: 0}
+  m_LocalScale: {x: 0.07227176, y: 0.07227176, z: 0.07227176}
   m_Children: []
   m_Father: {fileID: 63039844}
   m_RootOrder: 2
@@ -29317,7 +29317,7 @@ MonoBehaviour:
   - {fileID: 973640622}
   currentEquipment: []
   rightEquipment:
-  - Baseball Bat
+  - Wine Bottle
   - Arsenic
   - Feather Boa
   - Jealousy

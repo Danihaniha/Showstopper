@@ -16,6 +16,11 @@ public class Inventory : MonoBehaviour
     public GameObject andyDialogueM2;
     public GameObject buzzDialogueM2;
     public GameObject jesseDialogueM2;
+    public GameObject fittsDialogueM3;
+    public GameObject behavedDialogueM3;
+    public GameObject wandaDialogueM3;
+    public GameObject anitaDialogueM3;
+    public GameObject busterDialogueM3;
 
     private void Awake()
     {
@@ -77,6 +82,26 @@ public class Inventory : MonoBehaviour
                 case CharacterName.JesseM2:
                     dialogueUI.SetActive(true);
                     jesseDialogueM2.SetActive(true);
+                    break;
+                case CharacterName.MissFittsM3:
+                    dialogueUI.SetActive(true);
+                    fittsDialogueM3.SetActive(true);
+                    break;
+                case CharacterName.MissBehavedM3:
+                    dialogueUI.SetActive(true);
+                    behavedDialogueM3.SetActive(true);
+                    break;
+                case CharacterName.WandaStraponM3:
+                    dialogueUI.SetActive(true);
+                    wandaDialogueM3.SetActive(true);
+                    break;
+                case CharacterName.AnitaTensionM3:
+                    dialogueUI.SetActive(true);
+                    anitaDialogueM3.SetActive(true);
+                    break;
+                case CharacterName.BusterBlockM3:
+                    dialogueUI.SetActive(true);
+                    busterDialogueM3.SetActive(true);
                     break;
 
                 default:

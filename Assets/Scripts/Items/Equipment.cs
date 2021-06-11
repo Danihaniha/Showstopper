@@ -26,4 +26,4 @@ public class Equipment : Item
 
 public enum EquipmentSlot { Suspect, Motive, Weapon }
 
-public enum CharacterName { None, MikeM1, PeggyM1, AmeliaM1, AmeliaM2, AndyM2, JesseM2, BuzzM2}
+public enum CharacterName { None, MikeM1, PeggyM1, AmeliaM1, AmeliaM2, AndyM2, JesseM2, BuzzM2, MissFittsM3, MissBehavedM3, WandaStraponM3, AnitaTensionM3, BusterBlockM3}
